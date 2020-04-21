@@ -1,0 +1,33 @@
+@import 'config';
+
+%btn{
+    height:40px;
+    font-size: 20px;
+    border:none;
+    border-radius:15px;
+    text-align: center;
+    padding: 0px 10px;
+    margin:30px 0px; 
+    &:hover{
+        color:black;
+    }
+}
+
+.btn-1{
+    @extend %btn;
+    background-color:$primary-color;
+    color:$tertiary-color;
+}
+.btn-2{
+    @extend %btn;
+    background-color:$secondary-color;
+    color:$font-color;
+
+    & a{
+        text-decoration: none;
+        color:$font-color;
+    }
+    & a:hover{
+        color:black;
+    }
+}

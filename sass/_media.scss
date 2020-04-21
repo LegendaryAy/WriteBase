@@ -1,0 +1,9 @@
+@import 'config';
+
+@media (max-width:900px){
+    header #header, header ul, header li{
+        float: none;
+        text-align: center;
+        width:100%;
+    }        
+}
