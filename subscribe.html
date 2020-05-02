@@ -27,22 +27,23 @@
         </nav>
     </header>
     
-    <aside>
-        <h4>Get a Quotation</h4>
+    <section id="form">
         <form>
+            <h3>Subscribe</h3>
             <div id="my-form">
-                <input type="text" placeholder="Enter Your name...">
-                <br>
-                <input type="Email" placeholder= "Enter Your Email...">
-                <br>
-                <textarea name="message" id="message" cols="30" rows="10" placeholder="Why you want our services "></textarea>
-                <br>
+                <label for="name">Name:<input type="text" name="name" id="name" placeholder="Enter Your Name..."></label> <br>
+                <label for="name">Phone No:<input type="number" name="phone-no" id="phone-no" placeholder="Enter Your Phone No..." pattern="[0-9]{11}"></label> <br>
+                <label for="email">Email:<input type="email" name="email" id="email" placeholder="Enter Your Email..."></label> <br>
+                <label for="gender">Gender</label> <br>
+                <label for="male">Male<input type="radio" name="gender" class="gender" value="male"></label> 
+                <label for="female">Female<input type="radio" name="gender" class="gender" value="female"></label> <br>
+                <label for="message">Message: <textarea name="message" id="message" cols="30" rows="10"></textarea></label> <br>
                 <div id= "button">
-                    <button type= "Submit" class="button">Send</button>
+                    <button type= "Submit" class="btn-1">Subscribe</button>
                 </div>
             </div>
         </form>    
-    </aside>
+    </section>
     <section id="footer">
         <div class="container">
             <table>

@@ -17,6 +17,14 @@
     @extend %btn;
     background-color:$primary-color;
     color:$tertiary-color;
+
+    & a{
+        text-decoration: none;
+        color:$tertiary-color;
+    }
+    & a:hover{
+        color:black;
+    }
 }
 .btn-2{
     @extend %btn;
