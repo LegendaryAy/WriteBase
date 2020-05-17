@@ -28,16 +28,14 @@
     </header>
     
     <section id="form">
-        <form>
+        <form class="my-form">
             <h3>Subscribe</h3>
-            <div id="my-form">
-                <label for="name">Name:<input type="text" name="name" id="name" placeholder="Enter Your Name..."></label> <br>
-                <label for="name">Phone No:<input type="number" name="phone-no" id="phone-no" placeholder="Enter Your Phone No..." pattern="[0-9]{11}"></label> <br>
-                <label for="email">Email:<input type="email" name="email" id="email" placeholder="Enter Your Email..."></label> <br>
-                <label for="gender">Gender</label> <br>
+            <div class="input">
+                <input type="text" name="name" id="name" placeholder="Enter Your Name..."><br>
+                <input type="number" name="phone-no" id="phone-no" placeholder="Enter Your Phone No..." pattern="[0-9]{11}"><br>
+                <input type="email" name="email" id="email" placeholder="Enter Your Email..."><br>
                 <label for="male">Male<input type="radio" name="gender" class="gender" value="male"></label> 
-                <label for="female">Female<input type="radio" name="gender" class="gender" value="female"></label> <br>
-                <label for="message">Message: <textarea name="message" id="message" cols="30" rows="10"></textarea></label> <br>
+                <label for="female">Female<input type="radio" name="gender" class="gender" value="female"></label>
                 <div id= "button">
                     <button type= "Submit" class="btn-1">Subscribe</button>
                 </div>
@@ -49,20 +47,20 @@
             <table>
                 
                 <tbody>
-                    <tr>
-                        <td class="lc">Services</td>
-                        <td class="lc">About Us</td>
-                        <td>Contact Us</td>
+                    <tr> 
+                        <td class="lc"><a href="contact.html">Services</a></td>
+                        <td class="lc"><a href="about.html">About Us</a></td>
+                        <td><a href="subscribe.html">Contact Us</a></td>
                     </tr>        
                     <tr>
-                        <td class="lc">How to start writing</td>
-                        <td class="lc">10 steps to achieve high content quality </td>
-                        <td>Web design services</td>
+                        <td class="lc"><a href="#">How to start writing</a></td>
+                        <td class="lc"><a href="#">10 steps to achieve high content quality</a></td>
+                        <td><a href="#">Web design services</a></td>
                     </tr>
                     <tr>
-                        <td class="lc">Learn how to deploy websites</td>
-                        <td class="lc">Sign up for quality content</td>
-                        <td>+234 8106322363</td>
+                        <td class="lc"><a href="#">Learn how to deploy websites</a></td>
+                        <td class="lc"><a href="#">Sign up for quality content</a></td>
+                        <td><a href="#">+234 8106322363</a></td>
                     </tr>
                 </tbody>
             </table>

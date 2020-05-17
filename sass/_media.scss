@@ -1,10 +1,105 @@
-@import 'config';
-
-/* @media (max-width:900px){
-    header #header, header ul, header li{
-        float: none;
+@media screen and (min-height:200px)and (max-width:600px){
+    header{
+        position: relative;
+        
+        &>.container{
+            float: none;
+            width:100%;
+            text-align:center;
+            
+            h1{
+                margin:0.6rem 0 0.3rem 0.3rem;
+            }
+        }
+        & a{
+            text-transform:capitalize;
+        }
+        & nav{
+            padding-top:0.4rem;
+            margin-right: 2.5rem;
+        }
+        & li{
+            padding: 0px 15px 0px 15px;
+        }            
+    }
+    #main-section {
+        color:$tertiary-color;
+        background-image: url('../Images/web4.jpg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        margin-top:-14rem;
+        
+        & .container{
+            width:100%;
+        }
+        & h1{
+            font-size:2rem;
+            padding: 1rem 0;
+        }
+        & p{
+            font-size:1rem;
+            padding :0 3rem;
+        }    
+        
+    }   
+    .posts{
+        display: block;
+        margin: 5rem 0.5rem; 
+    
+    }
+    #blog{
+        text-align:center;
+        width:80%;
+        margin:-30rem auto 0;
+   
+        & img{
+            height: 200px;
+        }
+    }
+    #about,{
+        float:none;
+        width:90%;
+        text-align:center;
+        margin:-11rem 1rem 0;
+            
+    }
+    #side-bar{
+        float:none;
+        width:90%;
+        margin:2rem auto;
         text-align: center;
-        width:100%;
-    }        
-} */
+            
+    }
+    #services{
+        width:90%;
+        margin: -12rem 1rem 0;  
+                
+        & h3{
+            text-align:center;
+        }
+    }
+        
+    
+    table{
+        display:none;
+    }
+        
+    #form{
+        margin-top:-8rem;
+       
+        & h3{
+            font-size: 1.4rem;
+        }
+        & .my-form{
+            width:90%;
+        }
+    
+    }
+        
+    
+    
+    
+        
+}    
+
 

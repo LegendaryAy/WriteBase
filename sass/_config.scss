@@ -4,3 +4,12 @@ $tertiary-color: #f4f4f4;
 $font: Arial, Helvetica, Sans-serif;
 $font-color: #333;
 
+.paragraph{
+    background-color:$primary-color;
+    color:$tertiary-color;
+    padding: 5px;
+    margin-top:1rem;
+}
+.color{
+    color:$primary-color;
+}
